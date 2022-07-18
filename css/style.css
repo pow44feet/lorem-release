@@ -680,12 +680,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .webp .hero {
-  background-image: url("../../images/hero/bg.webp");
+  background-image: url("../images/hero/bg.webp");
 }
 
 .no-js .hero,
 .no-webp .hero {
-  background-image: url("../../images/hero/bg.jpg");
+  background-image: url("../images/hero/bg.jpg");
 }
 
 .hero__title {
@@ -809,11 +809,11 @@ body::-webkit-scrollbar-thumb {
 
 @media (min-width: 991.98px) {
   .webp .order {
-    background-image: linear-gradient(rgba(39, 39, 51, 0.9), rgba(39, 39, 51, 0.9)), url("../../images/order/bg.webp");
+    background-image: linear-gradient(rgba(39, 39, 51, 0.9), rgba(39, 39, 51, 0.9)), url("../images/order/bg.webp");
   }
   .no-js .order,
 .no-webp .order {
-    background-image: linear-gradient(rgba(39, 39, 51, 0.9), rgba(39, 39, 51, 0.9)), url("../../images/order/bg.jpg");
+    background-image: linear-gradient(rgba(39, 39, 51, 0.9), rgba(39, 39, 51, 0.9)), url("../images/order/bg.jpg");
   }
 }
 @media (max-width: 991.98px) {

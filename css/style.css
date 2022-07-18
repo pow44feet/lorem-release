@@ -1336,8 +1336,12 @@ input[type=range]::-moz-range-thumb {
   }
 }
 @media (max-width: 479.98px) {
+  .footer__paragraph br {
+    display: block;
+  }
+  
   .footer__payment,
-.footer__contacts {
+  .footer__contacts {
     flex-direction: column;
   }
   .footer__payment {
@@ -1350,4 +1354,3 @@ input[type=range]::-moz-range-thumb {
     margin-top: 18px;
   }
 }
-/*# sourceMappingURL=style.css.map */
